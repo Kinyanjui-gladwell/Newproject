@@ -7,5 +7,11 @@ def reverse(word):
     print(word)
     word = word[::-1]# reverse the order of list and print out the reversed string
     print(word)
+    n = len(word)
+    i = 0
+    while i<n:
+        print(word[i])
+        i = i+1
+
 
 reverse(" my name is gladwell")
