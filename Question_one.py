@@ -16,5 +16,5 @@ def fibonnacci(number):
     print("number at poistion:", fibonnacci_numbers[number])
 
 
-fibonnacci(3) #should return the fourth position
-fibonnacci(13) #should return the seventh position
+fibonnacci(3)
+fibonnacci(13)
