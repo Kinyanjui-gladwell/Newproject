@@ -11,7 +11,9 @@ def fibonnacci(number):
         n+=1
         print(fibonnacci_numbers)
     if number in fibonnacci_numbers:
-        print(fibonnacci_numbers.index(number))
+        print("number:", fibonnacci_numbers.index(number))
+    # returning number at that position
+    print("number at poistion:", fibonnacci_numbers[number])
 
 
 fibonnacci(3) #should return the fourth position
